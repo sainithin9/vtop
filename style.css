@@ -1,5 +1,6 @@
 body{
     margin: 0 0 0 0;
+    background-color: rgb(243, 240, 240);
 }
 nav{
     background-color: rgb(4, 61, 94);
@@ -16,17 +17,94 @@ h1{
     nav{
         height: 110px;
     }
+    .main{
+        width: 40%;
+        height: 25%;
+        float: left;
+    }
+    .main2{
+        float: right;
+        width: 45%;
+        margin-right: 8%;
+        margin-top: 30px;
+    }
 }
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:851px) and (max-width:991px){
     nav{
         height: 80px;
     }
+    .main{
+        width: 40%;
+        float: left;
+    }
+    .main2{
+        float: right;
+        width: 50%;
+        margin-top: 30px;
+        margin-right: 5%;
+    }
+    .sub1,.sub2,.sub3{
+        height: 120px;
+    }
 }
-@media (max-width:767px){
+@media (max-width:850px){
     nav{
         height: 60px;
     }
     img{
         margin-top: 10px;
     }
+    .main{
+        width: 93%;
+    }
+    .main2{
+        width: 85%;
+        margin-top: 30px;
+    }
+}
+.sub1,.sub2,.sub3{
+    padding:5px 10px 10px 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+p{
+    color: blue;
+}
+button{
+    float: right;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    margin-top: 3px;
+    padding-top:8px  ;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+.sub1{
+    border-top: 3px solid rgb(120, 245, 120);
+}
+.sub2{
+    border-top: 3px solid rgb(71, 223, 215);
+}
+.sub3{
+    border-top: 3px solid aqua;
+}
+.main2{
+    margin-left: 40px;
+    background-color:white;
+    border-top:3px solid orangered;
+}
+.b1{
+    background-color:rgb(120, 245, 120) ;
+}
+.b2{
+    background-color:rgb(71, 223, 215);
+}
+.b3{
+    background-color:aqua ;
+}
+.s{
+    text-align: center;
 }
