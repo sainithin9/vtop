@@ -65,7 +65,7 @@ h1{
         font-size:120%;
     }
 }
-@media (max-width:760px){
+@media (max-width:300px){
     h1{
         font-size: 90%;
     }
