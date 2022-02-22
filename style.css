@@ -8,11 +8,6 @@ nav{
 img{
     width: 20%;
 }
-h1{
-    float: right;
-    color: white;
-    margin-right: 40px;
-}
 @media (min-width:992px){
     nav{
         height: 110px;
@@ -28,7 +23,14 @@ h1{
         margin-right: 8%;
         margin-top: 30px;
     }
-}
+    .sub1,.sub2,.sub3{
+        height: 120px;
+    }
+    h1{
+        float: right;
+        color: white;
+        margin-right: 40px;
+    }}
 @media (min-width:851px) and (max-width:991px){
     nav{
         height: 80px;
@@ -46,6 +48,11 @@ h1{
     .sub1,.sub2,.sub3{
         height: 120px;
     }
+    h1{
+        float: right;
+        color: white;
+        margin-right: 40px;
+    }
 }
 @media (max-width:850px){
     nav{
@@ -57,19 +64,19 @@ h1{
     .main{
         width: 93%;
     }
+    .sub1,.sub2,.sub3{
+        height: 150px;
+    }
     .main2{
         width: 85%;
         margin-top: 30px;
     }
     h1{
-        font-size:120%;
+        float: right;
+        color: white;
+        font-size:medium;
+        margin-right: 10px;
     }
-}
-@media (max-width:300px){
-    h1{
-        font-size: 90%;
-    }
-
 }
 .sub1,.sub2,.sub3{
     padding:5px 10px 10px 10px;
