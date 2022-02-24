@@ -58,9 +58,12 @@ img{
     nav{
         height: 80px;
     }
-    img{
+    img
+    {
+        width: 25%;
         margin-top: 10px;
     }
+
     .main{
         width: 93%;
     }
