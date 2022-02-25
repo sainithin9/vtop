@@ -16,12 +16,12 @@
     </header> 
     <div>
         <h2> LOGIN TO VTOP </h2>
-        <input id="reg" type="text"  placeholder="Enter Register Number"  autocomplete="on" autofocus />
+        <input id="reg" type="text"  placeholder="Enter Register Number"  autocomplete="on" autofocus required />
         <br>
         <input id="dob" type="text" placeholder="Enter Date of Birth" onfocus="(this.type='date')"
-        onblur="(this.type='text')" autocomplete="on" />
+        onblur="(this.type='text')" autocomplete="on" required/>
         <br>
-        <input id="em" type="email" placeholder="Enter Alumni email " autocomplete="on" />
+        <input id="em" type="email" placeholder="Enter Alumni email " pattern="[^ @]*@[^ @]*" autocomplete="on" required/>
         <p> 
             
             <button id="si">

@@ -16,12 +16,12 @@
     </header> 
     <div>
         <h2> LOGIN TO VTOP </h2>
-        <input id="reg" type="text"  placeholder="Enter Student's Register Number"  autocomplete="on" autofocus />
+        <input id="reg" type="text"  placeholder="Enter Student's Register Number"  autocomplete="on" autofocus required/>
         <br>
         <input id="dob" type="text" placeholder="Enter Student's Date of Birth" onfocus="(this.type='date')"
-        onblur="(this.type='text')" autocomplete="on" />
+        onblur="(this.type='text')" autocomplete="on" required/>
         <br>
-        <input id="no" type="tel" placeholder="Enter Parents mobile number" autocomplete="on" />
+        <input id="no" type="tel" pattern="^\d{10}$" placeholder="Enter Parents mobile number" autocomplete="on" required/>
         <p> 
             
             <button id="si">
