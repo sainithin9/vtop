@@ -33,6 +33,18 @@ img
         #si{
             width: 20%;
         }
+        #reg{
+            width: 60%;
+        }
+        #dob{
+            width: 60%;
+        }
+        #no{
+            width: 60%;
+        }
+        #em{
+            width: 60%;
+        }
     }
 @media (min-width:851px) and (max-width:991px)
     {
@@ -54,6 +66,18 @@ img
         }
         #si{
             width: 25%;
+        }
+        #reg{
+            width: 60%;
+        }
+        #dob{
+            width: 60%;
+        }
+        #no{
+            width: 60%;
+        }
+        #em{
+            width: 60%;
         }
     }
 @media (max-width:850px)
@@ -82,7 +106,19 @@ img
 
         }
         #si{
-            width: 20%;
+            width: 25%;
+        }
+        #reg{
+            width: 70%;
+        }
+        #dob{
+            width: 70%;
+        }
+        #no{
+            width: 70%;
+        }
+        #em{
+            width: 70%;
         }
     }
 div
@@ -94,7 +130,6 @@ div
     }
 #reg{
     border: 2px solid;
-    width: 60%;
     height: 25px;
     background-color: rgb(229, 246, 250);
 }
@@ -102,7 +137,6 @@ div
     border: 2px solid;
     height: 25px;
     margin-top: 10px;
-    width: 60%;
     margin-bottom: 10px;
     background-color: rgb(229, 246, 250);
 }
@@ -110,7 +144,6 @@ div
     border: 2px solid;
     height: 25px;
     margin-top: 10px;
-    width: 60%;
     margin-bottom: 10px;
     background-color: rgb(229, 246, 250);
 }
@@ -118,7 +151,6 @@ div
     border: 2px solid;
     height: 25px;
     margin-top: 10px;
-    width: 60%;
     margin-bottom: 10px;
     background-color: rgb(229, 246, 250);
 }
