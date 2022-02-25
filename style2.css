@@ -1,0 +1,135 @@
+body
+    {
+    margin: 0 0 0 0;
+    background-color: rgb(243, 240, 240);
+    }
+nav
+    {
+    background-color: rgb(4, 61, 94);
+    }
+img
+    {
+    width: 20%;
+    }
+@media (min-width:992px)
+    {
+        nav
+            {
+            height: 110px;
+            }
+        h1
+            {
+            float: right;
+            color: white;
+            margin-right: 40px;
+            }
+        div{
+            width: 30%;
+            height: 250px;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-top: 40px;
+        }
+        #si{
+            width: 20%;
+        }
+    }
+@media (min-width:851px) and (max-width:991px)
+    {
+        nav
+        {
+            height: 80px;
+        }
+        h1{
+            float: right;
+            color: white;
+            margin-right: 40px;
+        }
+        div{
+            width: 50%;
+            height: 250px;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 10%;
+        }
+        #si{
+            width: 25%;
+        }
+    }
+@media (max-width:850px)
+    {
+        img
+        {
+            width: 25%;
+            margin-top: 10px;
+        }
+        nav
+        {
+            height: 80px;
+        }
+        h1{
+            float: right;
+            color: white;
+            font-size:medium;
+            margin-right: 10px;
+        }
+        div{
+            width: 70%;
+            height: 250px;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 20%;
+
+        }
+        #si{
+            width: 20%;
+        }
+    }
+div
+{       
+        padding:5px 10px 10px 10px;
+        border-radius: 4px;
+        background-color: white;
+        border-top:3px solid rgb(4, 61, 94);
+    }
+#reg{
+    border: 2px solid;
+    width: 60%;
+    height: 25px;
+    background-color: rgb(229, 246, 250);
+}
+#dob{
+    border: 2px solid;
+    height: 25px;
+    margin-top: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: rgb(229, 246, 250);
+}
+#no{
+    border: 2px solid;
+    height: 25px;
+    margin-top: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: rgb(229, 246, 250);
+}
+#em{
+    border: 2px solid;
+    height: 25px;
+    margin-top: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: rgb(229, 246, 250);
+}
+#si{
+    color: black;
+    border-radius: 3px;
+    border: none;
+    padding-top:8px  ;
+    padding-bottom: 8px;
+    background-color:rgb(120, 245, 120) ;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
