@@ -109,16 +109,16 @@ img
             width: 25%;
         }
         #reg{
-            width: 75%;
+            width: 85%;
         }
         #dob{
-            width: 75%;
+            width: 85%;
         }
         #no{
-            width: 75%;
+            width: 85%;
         }
         #em{
-            width: 75%;
+            width: 85%;
         }
     }
 div
@@ -130,11 +130,13 @@ div
     }
 #reg{
     border: 2px solid;
+    border-radius: 4px;
     height: 25px;
     background-color: rgb(229, 246, 250);
 }
 #dob{
     border: 2px solid;
+    border-radius: 4px;
     height: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -142,6 +144,7 @@ div
 }
 #no{
     border: 2px solid;
+    border-radius: 4px;
     height: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -149,6 +152,7 @@ div
 }
 #em{
     border: 2px solid;
+    border-radius: 4px;
     height: 25px;
     margin-top: 10px;
     margin-bottom: 10px;

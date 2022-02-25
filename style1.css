@@ -97,10 +97,10 @@ img
             width: 25%;
         }
         #reg{
-            width: 75%;
+            width: 85%;
         }
         #pwd{
-            width: 75%;
+            width: 85%;
         }
     }
 div
@@ -112,15 +112,15 @@ div
     }
 #reg{
     border: 2px solid;
-    
+    border-radius: 4px;
     height: 25px;
     background-color: rgb(229, 246, 250);
 }
 #pwd{
     border: 2px solid;
+    border-radius: 4px;
     height: 25px;
     margin-top: 10px;
-    
     margin-bottom: 10px;
     background-color: rgb(229, 246, 250);
 }
