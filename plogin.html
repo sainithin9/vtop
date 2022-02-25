@@ -18,7 +18,8 @@
         <h2> LOGIN TO VTOP </h2>
         <input id="reg" type="text"  placeholder="Enter Student's Register Number"  autocomplete="on" autofocus />
         <br>
-        <input id="dob" type="date" placeholder="Enter Student's Date of Birth" autocomplete="on" />
+        <input id="dob" type="text" placeholder="Enter Student's Date of Birth" onfocus="(this.type='date')"
+        onblur="(this.type='text')" autocomplete="on" />
         <br>
         <input id="no" type="tel" placeholder="Enter Parents mobile number" autocomplete="on" />
         <p> 
